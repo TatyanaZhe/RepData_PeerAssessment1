@@ -262,20 +262,13 @@ I don't see in these sequences of dates any pattern. Maybe some days an anonymou
 Histogram of the total number of steps taken each day:
 
 ```r
-par(mfrow = c(2,1), mar=c(4,4,4,1))
+par(mfrow = c(1,1), mar=c(4,4,4,1))
 hist(total_steps_each_day, 
      breaks = 10,
      col = "cyan",
      main = "Histogram of the total number of steps\n taken each day",
      font.main = 12,
-     xlab = "")
-text(20000, 8,"breaks = 10")
-hist(total_steps_each_day, 
-     breaks = 20,
-     col = "magenta",
-     xlab = "Total number of steps taken each day",
-     main = "")
-text(20000, 8,"breaks = 20")
+     xlab = "Total number of steps taken each day")
 ```
 
 ![](PA1_template_files/figure-html/plot2-1.png) 
