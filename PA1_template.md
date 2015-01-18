@@ -1,11 +1,6 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-author: "TZ"
-date: "Thursday, January 18, 2015"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
+TZ  
+Thursday, January 18, 2015  
 
 
 ## Introduction
@@ -229,7 +224,7 @@ plot(dates, total_steps_each_day,
 lines(dates, total_steps_each_day)
 ```
 
-![plot of chunk plot1](figure/plot1-1.png) 
+![](PA1_template_files/figure-html/plot1-1.png) 
 
 
 Number of missing values (NAs) in vector 'total_steps_each_day' is equel:
@@ -283,7 +278,7 @@ hist(total_steps_each_day,
 text(20000, 8,"breaks = 20")
 ```
 
-![plot of chunk plot2](figure/plot2-1.png) 
+![](PA1_template_files/figure-html/plot2-1.png) 
 
 Mean and median of total number of steps taken per day are
 
@@ -323,7 +318,7 @@ plot(intervals, avr_steps_each_interval,
      ylab = "Average number of steps taken, averaged across all days")
 ```
 
-![plot of chunk plot3](figure/plot3-1.png) 
+![](PA1_template_files/figure-html/plot3-1.png) 
 
 Ordinal number of 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps is equel
 
@@ -459,7 +454,7 @@ hist(total2_steps_each_day,
 text(17000, 20,"NAs are replaced by mean")
 ```
 
-![plot of chunk plot4](figure/plot4-1.png) 
+![](PA1_template_files/figure-html/plot4-1.png) 
 
 After using 2nd strategy (NAs are replaced by mean) data set better describes real life activity of subject. I think that subject in his/her life hasn't got 10 days from 2 month without moving when total number of steps per day is less than 2000).
 
@@ -532,7 +527,7 @@ legend(x=600, y=200, lty = "solid",
        bty = "n")
 ```
 
-![plot of chunk plot5](figure/plot5-1.png) 
+![](PA1_template_files/figure-html/plot5-1.png) 
 
 My conclusion, 2nd strategy (NAs are replaced by mean) in this case is better than 1st strategy (NAs are replaced by median). I will data set 'activity2' for next part of this assignment.
 
@@ -599,7 +594,7 @@ plot(intervals, avr3_steps_each_interval_wkday,
      font = 1)
 ```
 
-![plot of chunk plot6](figure/plot6-1.png) 
+![](PA1_template_files/figure-html/plot6-1.png) 
 
 
 ###Answer:  
